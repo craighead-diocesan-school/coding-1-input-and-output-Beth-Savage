@@ -3,11 +3,13 @@
 // ####################################
 
 function greeting() {
-  let username = prompt("What's your name?")
+  let feeling = prompt("How are you?")
 
-  alert('Hello ' + username)
+  alert('I am also ' + feeling)
 }
 
 function joke() {
   // write the code for your joke here.
+  let userInput = prompt("What's brown and sticky")
+  alert('A stick')
 }
